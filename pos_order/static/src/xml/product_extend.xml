@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <templates id="product_extend_template_id" xml:space="preserve">
+
+    <t t-name="OrderNoteButton" owl="1">
+        
+            <div class="control-button">
+                <i class="fa fa-comment" />
+                <span >Order Note</span></div>
+        
+        </t>
+    </templates>
