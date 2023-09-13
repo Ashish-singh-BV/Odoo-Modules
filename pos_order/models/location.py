@@ -39,8 +39,8 @@ class AllocateLocation(models.TransientModel):
 class Session(models.Model):
     _inherit = "pos.session"
 
-    selected_location = fields.Many2many(
-        'pos.location', related='config_id.selected_location', string='loc session')
+    # selected_location = fields.Many2many(
+    #     'pos.location', related='config_id.selected_location', string='loc session')
 
     @api.model
     def _pos_ui_models_to_load(self):

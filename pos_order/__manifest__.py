@@ -9,6 +9,7 @@
         "security/ir.model.access.csv",
         "views/pos_order.xml",
         "views/location.xml",
+        "views/template.xml",
         "views/pos_config_view.xml",
     ],
     'assets': {
